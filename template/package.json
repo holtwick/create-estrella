@@ -1,0 +1,13 @@
+{
+  "name": "estrella-starter",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "./build.js -gw",
+    "build": "./build.js"
+  },
+  "devDependencies": {
+    "estrella": "^1"
+  }
+}

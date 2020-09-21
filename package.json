@@ -1,0 +1,31 @@
+{
+  "name": "create-estrella",
+  "version": "0.1.0",
+  "description": "Create a starter project for Estrella, the esbuild based build system",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "create-estrella": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "author": {
+    "name": "Dirk Holtwick",
+    "email": "dirk.holtwick@gmail.com",
+    "url": "https://holtwick.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holtwick/create-estrella.git"
+  },
+  "bugs": {
+    "url": "https://github.com/holtwick/create-estrella/issues"
+  },
+  "homepage": "https://github.com/holtwick/create-estrella",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "minimist": "^1.2.5"
+  }
+}
