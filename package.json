@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Create a starter project for Estrella, the esbuild based build system",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "index.js",
   "bin": {
     "create-estrella": "index.js"
   },
