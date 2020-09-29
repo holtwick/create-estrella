@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "./build.js -gw",
+    "devserve": "./build.js -gw -run",
     "build": "./build.js"
   },
   "devDependencies": {
