@@ -1,15 +1,23 @@
 {
   "name": "create-estrella",
-  "version": "0.4.0",
-  "description": "Create a starter project for Estrella, the esbuild based build system",
+  "version": "1.0.0",
+  "description": "Create a starter project for estrella, the esbuild based build system",
   "license": "MIT",
+  "keywords": [
+    "estrella",
+    "esbuild",
+    "scaffold",
+    "module",
+    "watch",
+    "build"
+  ],
   "main": "index.js",
   "bin": {
     "create-estrella": "index.js"
   },
   "files": [
     "index.js",
-    "template"
+    "template-*"
   ],
   "author": {
     "name": "Dirk Holtwick",

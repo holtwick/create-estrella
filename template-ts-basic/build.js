@@ -4,6 +4,6 @@ const { build } = require("estrella")
 const pkg = require("./package.json")
 
 build({
-  entry: "src/index.js",
+  entry: "src/main.ts",
   outfile: pkg.main,
 })
