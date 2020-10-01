@@ -18,6 +18,26 @@ $ yarn
 $ yarn dev
 ```
 
+## Templates
+
+Available templates:
+
+- `basic` (default)
+- `module`
+- `server`
+
+To scaffold with specific template:
+
+```bash
+$ npm init estrella <project-name> --template <template>
+```
+
+For example to set up the module named "my-module":
+
+```bash
+$ npm init estrella my-module --template module
+```
+
 ---
 
 This package was created using <https://github.com/vitejs/create-vite-app> as model. Thanks!

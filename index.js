@@ -24,7 +24,7 @@ async function init() {
 
   const templateDir = path.join(
     __dirname,
-    'template',
+    `template-${argv.t || argv.template || 'basic'}`,
   )
   const write = async (file, content) => {
     const targetPath = renameFiles[file]
