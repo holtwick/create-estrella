@@ -31,8 +31,7 @@ $ npm init estrella <project-name> --ts
 Available templates:
 
 - `basic` (default)
-- `module`
-- `server`
+- `module` 
 
 To scaffold with specific template:
 
