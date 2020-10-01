@@ -18,6 +18,14 @@ $ yarn
 $ yarn dev
 ```
 
+## Languages
+
+By default templates are provided in Javascript. If you prefer Typescript add the `--ts` option:
+
+```bash
+$ npm init estrella <project-name> --ts
+```
+
 ## Templates
 
 Available templates:

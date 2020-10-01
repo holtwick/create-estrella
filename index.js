@@ -22,9 +22,11 @@ async function init() {
     process.exit(1)
   }
 
+  const lang = (argv.ts || argv.typescript) ? 'ts' : 'js'
+
   const templateDir = path.join(
     __dirname,
-    `template-${argv.t || argv.template || 'basic'}`,
+    `template-${lang}-${argv.t || argv.template || 'basic'}`,
   )
   const write = async (file, content) => {
     const targetPath = renameFiles[file]
