@@ -1,7 +1,7 @@
 {
   "name": "estrella-starter",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "npm run dev",
     "dev": "./build.js -debug -watch",
