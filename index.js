@@ -40,12 +40,12 @@ async function init() {
   }
 
   const files = await fs.readdir(templateDir)
-  for (const file of files.filter((f) => f !== 'package.json')) {
+  for (const file of files.filter((f) => f !== '_package.json')) {
     await write(file)
   }
 
   const name = path.basename(root)
-  const pkg = require(path.join(templateDir, `package.json`))
+  const pkg = require(path.join(templateDir, `_package.json`))
 
   for (const key in pkg) {
     if (pkg.hasOwnProperty(key)) {
