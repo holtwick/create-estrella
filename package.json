@@ -1,6 +1,6 @@
 {
   "name": "create-estrella",
-  "version": "0.5.3",
+  "version": "1.0.0",
   "description": "Create a starter project for estrella, the esbuild based build system",
   "license": "MIT",
   "keywords": [
