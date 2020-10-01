@@ -1,6 +1,6 @@
 {
   "name": "create-estrella",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Create a starter project for Estrella, the esbuild based build system",
   "license": "MIT",
   "main": "index.js",
