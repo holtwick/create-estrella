@@ -46,8 +46,14 @@ async function init() {
 
   const name = path.basename(root)
   const pkg = require(path.join(templateDir, `package.json`))
-  for (const key of Object.keys(pkg)) {
-    pkg[key] = pkg[key].replace('estrella-starter', name)
+
+  for (const key in pkg) {
+    if (pkg.hasOwnProperty(key)) {
+      var value = pkg[key]
+      if (typeof value === 'string') {
+        pkg[key] = value.replace('estrella-starter', name)
+      }
+    }
   }
 
   await write('package.json', JSON.stringify(pkg, null, 2))
