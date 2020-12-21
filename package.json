@@ -35,5 +35,11 @@
   "dependencies": {
     "fs-extra": "^9.0.1",
     "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "format": "prettier --write ."
   }
 }
