@@ -3,18 +3,18 @@
   "version": "0.0.0",
   "main": "dist/estrella-starter.cjs.js",
   "module": "dist/estrella-starter.esm.js",
-  "unpkg": "dist/estrella-starter.min.js",
+  "types": "dist/estrella-starter.d.ts",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "start": "npm run dev",
     "dev": "./build.js -debug -watch -inline-sourcemap",
     "build": "./build.js",
+    "build:declaration": "tsc --declaration --outFile dist/estrella-starter.d.ts --emitDeclarationOnly",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "estrella": "^1"
+    "estrella": "^1",
+    "typescript": "^4.1.3"
   }
 }

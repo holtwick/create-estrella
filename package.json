@@ -1,6 +1,6 @@
 {
   "name": "create-estrella",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a starter project for estrella, the esbuild based build system",
   "license": "MIT",
   "keywords": [
@@ -35,5 +35,11 @@
   "dependencies": {
     "fs-extra": "^9.0.1",
     "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "format": "prettier --write ."
   }
 }

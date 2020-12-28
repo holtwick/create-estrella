@@ -1,5 +1,5 @@
 // Your code goes here
 
-export function sayHelloWorld() {
-  console.log('Hello World')
+export function simpleSum(a: number, b: number): number {
+  return a + b
 }

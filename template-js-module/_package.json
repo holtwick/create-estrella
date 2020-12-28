@@ -5,9 +5,7 @@
   "module": "dist/estrella-starter.esm.js",
   "unpkg": "dist/estrella-starter.min.js",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "start": "npm run dev",
     "dev": "./build.js -debug -watch -inline-sourcemap",
